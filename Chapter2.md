@@ -1,21 +1,28 @@
-# Mendelian Randomization: Chapter 2
+# Mendelian Randomization #
+## Chapter 2 ##
 
-## Introduction:
+Mendelian randomiMendelian randomization is a method to include genetic variation as an instrument variable in observational studies. It can be used for any type of observational study. For a genetic variation to be acceptable as an instrument variable, it has to satisfy three criteria:
 
-	Mendelian randomization is a method to include genetic variation as an 
-	instrument variable in observational studies. It can be used for any type 
-	of observational study. For a genetic variation to be acceptable as an 
-	instrument variable, it has to satisfy three criteria:
+*1*. The genetic code should be directly related to the exposure.
 
-	*1. The genetic code should be directly related to the exposure. 
-	*2. The genetic code should not be related to any other confounding factor 
+*2*. The genetic code should not be related to any other confounding factor 
 	that would influence outcome.
-	*3. The genetic code should influence the outcome only via the exposure and 
-	not via any other pathway. 
 
-	By using the genetic variant as an IV, we are constructing a natural randomized 
-	experiment. Using this method, we can obtain a causal inference regarding the 
-	influence of the exposure on the outcome. We can use more than 1 genetic variant
-	by combining them into 1 IV or using more than 1 IV simultaneously. 
+*3*. The genetic code should influence the outcome only via the exposure and not via any other pathway. 
+
+By using the genetic variant as an IV, we are constructing a natural randomized experiment. Using this method, we can obtain a causal inference regarding the influence of the exposure on the outcome. We can use more than 1 genetic variant by combining them into 1 IV or using more than 1 IV simultaneously. In epidemiology, some terms are very specifically used.
+
+*1*. Exposure 'X' - This is the condition/procedure that is the main focus of our study. We would like to understand the causal relationship between the exposure and the event of interest. 
+
+*2*. Confounding - Confounding is a condition when a variable is a common cause of both the exposure as well as the outcome of interest. In the presence of confounding, we cannot establish a causal relationship between the exposure and event of interest. 
+
+*3.* Longitudinal data - Measurements of the same patient taken at different time intervals.
+
+*4*. Measured covariate - These are covariates that will be included in the multi variable regression model to reduce confounding.
+
+*5*. IV - The instrument variable 'G' is the genetic variant that is associated with the exposure 'X' and only influences the outcome 'Y' via 'X'. THe IV is not associated with the other confounding variables that are included in the model and that may influence the occurrence of 'Y'.
+
+While the distribution of genetic material depends upon the parents, in a large population, there is no evidence to suggest that this does not occur randomly. Hence, selecting 2 group of patients with differing genetic material is similar to a randomized experiment. Genetic distribution is not influenced by environmental and external factors that patients are influenced by in an observational study. Hence, for all practical purposes, we can assume that genetic material is randomly distributed. Thus, stratification of patients based on genetic material is akin to treatment randomization in an RCT. 
+
 
 
