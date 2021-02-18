@@ -1,0 +1,27 @@
+# Mendelian Randomization
+
+## Chapter 3.
+
+
+
+Chapter 3 further goes deeper into the assumptions of IV. *DAG* are graphs used to explain the relationship between covariates, exposure and outcome. The *DAG*used to represent an IV is:
+G ----> X -----> Y, where the confounder variables are associated with both X and Y. *G*, the IV, only influences *X* and *Y* only via *X*.
+
+Therefore, G ---> C --- > Y , cannot occur if *G* is an *IV*. Here *C* would be another covariate that influences *Y*. However, as *G* also influences *C*, it cannot be an *IV* for *X*.
+
+G <--- M ---> Y, can occur, and here, *M* is another clinical covariate that needs to be adjusted for in the analysis.
+
+G ---> D <--- Y , here *D* is considered as a collider. 
+
+A genetic instrument can be a strong or a weak instrument. That depends upon how the genetic variation changes the covariate *X*. If we have a weak *IV*, then combining multiple gene variants may increase strength, but also leads to more assumptions. 
+
+Validity of assumptions / Concept of average treatment effect: In an RCT, we measure an average treatment effect comparing two exposures *X1* and *X0*. If *X1* leads to *Y1* and *X0* leads to *Y0*, then, the average treatment effect observed is *Y1 - Y0*. In this framework, we have to also assume, that if we were to provide the opposite exposure to the two groups, the average treatment effect observed would be exactly the same. Such an assumption is also considered valid for *MR*. 
+This is called the **exchangiblity criterion**. As in an RCT, this assumption cannot be tested.
+
+As for any statistical analysis, results in *MR* are only valid if assumptions hold and are considered appropriate. If the genetic variants chosen as an *IV* is not valid, then the results will not be valid.
+
+ 
+
+
+
+         
