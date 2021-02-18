@@ -24,5 +24,13 @@ By using the genetic variant as an IV, we are constructing a natural randomized 
 
 While the distribution of genetic material depends upon the parents, in a large population, there is no evidence to suggest that this does not occur randomly. Hence, selecting 2 group of patients with differing genetic material is similar to a randomized experiment. Genetic distribution is not influenced by environmental and external factors that patients are influenced by in an observational study. Hence, for all practical purposes, we can assume that genetic material is randomly distributed. Thus, stratification of patients based on genetic material is akin to treatment randomization in an RCT. 
 
+The benefit of **MR** is (1) In case control studies, patients already having the disease may have reduced exposure. Especially if patients have a situation where they may have the disease but this is still subclinical. (2) The other situation where **MR** is very useful is when the measurement of the exposure is very expensive, or not practical. **MR** is protected from reverse confounding. In **MR**, the genetic variants do not depend upon the having the end-point and hence they can be used in the situation of a case-control setting where we are retrospectively looking at patients that have already had the end-point 'Y'. 
+
+The most common type of SNP (single nucleotide polymorphism) is a di-allelic SNP. Here, each patient can be 1 of 3 types:- *AA*, *Aa*, or *aa*. Tri-allelic and quadri-allelic SNP are rare. A situation where each SNP variation is present in > 1% of the population is considered an SNP. Otherwise, it would be considered a mutation. SNP are labelled using a number and are labelled as *Rs* (Reference series)- number.
+
+**MR** needs to be applied with care as assumptions cannot be tested. Often, data from many patient groups needs to be pooled together. However, **MR** may be the best tool to provide a causal relationship. 
+
+
+
 
 
