@@ -1,0 +1,24 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(badger)
+
+```
+
+`r badge_custom("Mendelian Randomization", "Study Notes","blue")`
+
+
+# Mendelian Randomisation
+
+This repository contains notes, code and other notes while studying for the course on Mendelian Randomization. The repository also contains miscellaneous notes from the book.
+
+
