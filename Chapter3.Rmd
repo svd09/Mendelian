@@ -12,6 +12,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Chapter 3 further goes deeper into the assumptions of IV. *DAG* are graphs used to explain the relationship between covariates, exposure and outcome. The *DAG*used to represent an IV is:
 
+```{r}
+library(ggdag)
+
+```
 
 
 G ----> X -----> Y, where the confounder variables are associated with both X and Y. *G*, the IV, only influences *X* and *Y* only via *X*.
